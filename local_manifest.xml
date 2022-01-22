@@ -3,12 +3,12 @@
 	
 	# Remotes
 	<remote name="st" fetch="https://github.com/stupid-kid-af" />
-	    <remote name="xtended"
-    	        fetch="https://github.com/Xtended-Devices" />
+	    <remote name="kk"
+    	        fetch="https://github.com/hijemu" />
 	
 	
      	<project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="st" revision="twelve-pe" />
      	<project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="st" revision="twelve" />
-    <project path="kernel/xiaomi/juice" name="kernel_xiaomi_juice" remote="xtended" revision="xtended" clone-depth="1" />
+    <project path="kernel/xiaomi/juice" name="kernel_xiaomi_juice" remote="kk" revision="derp-11" clone-depth="1" />
        
 </manifest>
