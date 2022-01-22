@@ -2,25 +2,13 @@
 <manifest>
 	
 	# Remotes
-	<remote name="me" fetch="https://github.com/iamshubh69" />
-	<remote name="dps" fetch="https://github.com/DPSLEGEND" />
-	<remote name="parts" fetch="https://github.com/Realme-G70-Series" />
-	<remote name="ims" fetch="https://github.com/AOSP-12-RMX2020" />	
-	<remote name="cipher" fetch="https://github.com/CipherOS" />
-	<remote name="salik" fetch="https://github.com/P-Salik" />
+	<remote name="st" fetch="https://github.com/stupid-kid-af" />
+	    <remote name="xtended"
+    	        fetch="https://github.com/Xtended-Devices" />
 	
-     	<project path="device/realme/moon" name="device_realme_moon" remote="me" revision="sytx" />
-     	<project path="vendor/realme/moon" name="vendor_realme_moon" remote="dps" revision="twelve" />
-     	<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="parts" revision="aosp12" />
-     	<project path="vendor/mediatek-ims" name="vendor_mediatek-ims" remote="dps" revision="twelve-rmui2" /> 
-     	<project path="kernel/realme/moon" name="kernel_realme_moon" remote="me" revision="12-rui2" />	
-        <remove-project name="platform/frameworks/opt/net/ims" />
-     	<project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="ims" revision="aosp-12" />
 	
-	<remove-project name="platform/external/selinux" />
-	<project path="external/selinux" name="android_external_selinux" remote="cipher" revision="twelve" />
-	
-	<remove-project name="platform/system/vold" />
-	<project path="system/vold" name="android_system_vold-LineageOS" remote="salik" revision="lineage-19.0" />
-
+     	<project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="st" revision="sytx" />
+     	<project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="st" revision="twelve" />
+    <project path="kernel/xiaomi/juice" name="kernel_xiaomi_juice" remote="xtended" revision="xtended" clone-depth="1" />
+       
 </manifest>
