@@ -7,8 +7,8 @@
     	        fetch="https://github.com/Xtended-Devices" />
 	
 	
-     	<project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="st" revision="sytx" />
-     	<project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="st" revision="twelve" />
+     	<project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="st"  />
+     	<project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="st"  />
     <project path="kernel/xiaomi/juice" name="kernel_xiaomi_juice" remote="xtended" revision="xtended" clone-depth="1" />
        
 </manifest>
