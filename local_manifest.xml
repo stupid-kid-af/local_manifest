@@ -7,7 +7,7 @@
     	        fetch="https://github.com/hijemu" />
 	
 	
-     	<project path="device/xiaomi/juice" name="android_device_xiaomi_juice-1" remote="st" revision="a11/aosp" />
+     	<project path="device/xiaomi/juice" name="android_device_xiaomi_juice-1" remote="st" revision="a11/lineage" />
      	<project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="st" revision="twelve" />
     <project path="kernel/xiaomi/juice" name="kernel_xiaomi_juice" remote="kk" revision="derp-11" clone-depth="1" />
        
